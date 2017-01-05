@@ -8,10 +8,6 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 import datetime
-  
-# timer_interval=1  
-# def delayrun():  
-#     print 'running'  
 
 ######email
 sender = 'jeiryc@126.com'
