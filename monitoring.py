@@ -88,8 +88,8 @@ def urlCheck(value,interval,receiver):
 # 创建多个线程检测
 if __name__=='__main__':
 	try:
-		thread.start_new_thread( urlCheck, ("http://www.google.com",60,'13536621211@163.com',) )
-		thread.start_new_thread( urlCheck, ("http://www.facebook.com/",60,'13536621211@163.com',) )
+		thread.start_new_thread( urlCheck, ("http://www.google.com",60,'receive@email.com',) )
+		thread.start_new_thread( urlCheck, ("http://www.facebook.com/",60,'receive@email.com',) )
                 #创建了2个线程检测两个网站 第一个值为网址\第二个值为每60秒循环一次\第三个值为出现问题接收提醒邮箱
 		jcLog("run")
 	except:
